@@ -19,8 +19,8 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - setuptools
-  run:
+    - setuptools >=64
+    - wheel
     - python >=3.8
     - flash
     - pigz
